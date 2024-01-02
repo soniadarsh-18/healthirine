@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No internet Found</title>
+    <link rel="preload" href="Images/Healthirine.webp" as="image">
+    <link rel="icon" href="Images/Healthirine.webp" type="image/ico">
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fcfcff;
+        }
+
+        .middle-order {
+            text-align: center;
+        }
+
+        .middle-order {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100vh;
+            /* This will make it take up the full viewport height */
+        }
+
+        .gif-image {
+            max-width: 100%;
+            /* Make the GIF responsive to its container */
+            width: 300px;
+            /* Set a specific width for the GIF */
+            height: auto;
+            /* Maintain the aspect ratio */
+        }
+
+        /* Responsive size for mobile */
+        @media (max-width: 768px) {
+            .gif-image {
+                width: 200px;
+                /* Adjust the width for smaller screens */
+            }
+        }
+
+        html {
+            overflow-x: hidden;
+            scroll-padding-top: 7rem;
+            scroll-behavior: smooth;
+        }
+
+        html::-webkit-scrollbar {
+            width: .6rem;
+        }
+
+        html::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        html::-webkit-scrollbar-thumb {
+            background: gray;
+            border-radius: 5rem;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .logo-1 {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .logo-1 img {
+            width: 100%;
+            max-width: 150px;
+        }
+
+        h1{
+            font-size: 
+            clamp(32px, 10vw, 10px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="middle-order">
+        <img src="Images/animated-internet-dog.gif" alt="Animated Internet Dog"
+            title="Animated Internet Dog by Healthirine Team" class="gif-image">
+        <h1>No Internet Connection</h1>
+        <p class="offline-message">Oops! Looks like your internet's on a diet!</p>
+    </div>
+    <!-- <div class="logo-1"><img src="images/Healthirine-logo.webp" alt="Healthirine" title="Healthirine"></div> -->
+</body>
+
+</html>
